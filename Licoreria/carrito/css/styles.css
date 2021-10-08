@@ -1,0 +1,75 @@
+body{
+  background-color: #969696ea;
+}
+
+
+header, .alert{
+  z-index: 100;
+}
+
+.btn-primary:hover:hover{
+  background-color: aqua;
+  color: black;
+}
+
+.description{
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+  
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide, .remove{
+  display: none;
+}
+
+#main img {
+  max-height: 40vh;
+  object-fit: cover;
+  filter: grayscale(90%);
+}
+
+#carouselExampleFade {
+  position: relative;
+}
+
+#carouselExampleFade .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
+}
+
+#carouselExampleFade .overlay .container, #carouselExampleFade .overlay .row {
+  height: 100%;
+}
